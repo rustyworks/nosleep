@@ -36,7 +36,7 @@ if __name__ == "__main__":
                 pyautogui.move(0, 1)
                 pyautogui.move(0, -1)
             elif mode == WakeupMode.BUTTON.value:
-                pyautogui.press("shift")
+                pyautogui.press("shiftright")
             else:
                 sys.exit(1)
             sleep(WAKEUP_IN_SECONDS)
